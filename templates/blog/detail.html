@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}{{ post.location }}. {{ post.date }}{% endblock %}
+
+{% block content %}
+<h1>{{ post.location }}</h1>
+<p>{{ post.date }}</p>
+<p>{{ post.text }}</p>
+{% endblock %}
